@@ -1,0 +1,213 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		p_gina_inicial
+	 *	@date 		Tuesday 23rd of May 2023 06:52:43 PM
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/recuperar_senha_celular" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+
+
+			<RelativeLayout android:id="@+id/page_recuperar_senha_celular_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View   android:id="@+id/_bg__recuperar_senha_celular_ek2"
+					android:background="@drawable/_bg__recuperar_senha_celular_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="385dp"
+					android:layout_height="736dp" />
+
+				<ImageView android:id="@+id/_dermagelogo_ek3"
+					android:src="@drawable/_dermagelogo_ek3"
+					android:contentDescription="_dermagelogo_ek3"
+					 android:layout_marginStart="141dp"
+					android:layout_marginTop="20dp"
+					android:layout_width="103dp"
+					android:layout_height="37dp" />
+
+				<View   android:id="@+id/rectangle_56_ek2"
+					android:background="@drawable/rectangle_56_ek2_shape"
+					 android:alpha="0.80000001192093"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="70dp"
+					android:layout_width="385dp"
+					android:layout_height="602dp" />
+
+				<TextView android:id="@+id/esqueceu_a_senha__ek2"
+					android:fontFamily="Georama"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="31sp"
+					android:textColor="@color/acesse_a_sua_conta_color"
+					android:layout_marginLeft="8dp"
+					android:layout_marginTop="91dp"
+					android:layout_width="380dp"
+					android:layout_height="102.5dp"
+					android:text="@string/esqueceu_a_senha__ek2_string"
+					 />
+
+				<TextView android:id="@+id/_email_ek3"
+					android:fontFamily="Inter"
+					android:textStyle="bold|italic"
+					android:textSize="15sp"
+					android:textColor="@color/_celular_color"
+					android:layout_marginLeft="71dp"
+					android:layout_marginTop="233dp"
+					android:layout_width="68.5dp"
+					android:layout_height="33.5dp"
+					android:text="@string/_email_ek3_string"
+					 />
+
+				<TextView android:id="@+id/celular_ek1"
+					android:fontFamily="Inter"
+					android:textStyle="bold|italic"
+					android:textSize="15sp"
+					android:textColor="@color/line_3_color"
+					android:layout_marginLeft="266dp"
+					android:layout_marginTop="233dp"
+					android:layout_width="81.5dp"
+					android:layout_height="33.5dp"
+					android:text="@string/celular_ek1_string"
+					 />
+
+				<TextView android:id="@+id/entre_com_o_seu_email_ou_n_mero_de_celular_e_te_mandaremos_um_link_para_recuperar_a_sua_conta__ek1"
+					android:fontFamily="Inter"
+					android:textStyle="italic"
+					android:textSize="15sp"
+					android:textColor="@color/line_3_color"
+					android:layout_marginLeft="16dp"
+					android:layout_marginTop="164dp"
+					android:layout_width="374.5dp"
+					android:layout_height="55.5dp"
+					android:text="@string/entre_com_o_seu_email_ou_n_mero_de_celular_e_te_mandaremos_um_link_para_recuperar_a_sua_conta__ek1_string"
+					 />
+
+				<View   android:id="@+id/rectangle_103_ek4"
+					android:background="@drawable/rectangle_103_ek4_shape"
+					 android:layout_marginStart="45dp"
+					android:layout_marginTop="396dp"
+					android:layout_width="295dp"
+					android:layout_height="37dp" />
+
+				<TextView android:id="@+id/enviar_ek1"
+					android:fontFamily="Georama"
+					android:textStyle="bold"
+					android:layout_gravity="center_horizontal|center"
+					android:gravity="center"
+					android:textSize="16sp"
+					android:textColor="@color/entrar_color"
+					android:layout_marginLeft="150dp"
+					android:layout_marginTop="400dp"
+					android:layout_width="92dp"
+					android:layout_height="40dp"
+					android:text="@string/enviar_ek1_string"
+					 />
+
+				<View   android:id="@+id/line_5_ek1"
+					android:background="@drawable/line_5_ek1_shape"
+					 android:layout_marginStart="-14dp"
+					android:layout_marginTop="264dp"
+					android:layout_width="207.01dp"
+					android:layout_height="1dp" />
+
+				<View   android:id="@+id/line_6_ek1"
+					android:background="@drawable/line_6_ek1_shape"
+					 android:layout_marginStart="193dp"
+					android:layout_marginTop="262dp"
+					android:layout_width="207.01dp"
+					android:layout_height="1dp" />
+
+				<TextView android:id="@+id/_volte_para_acessar_a_sua_conta_ek1"
+					android:fontFamily="Inter"
+					android:textStyle="italic"
+					android:textSize="13sp"
+					android:textColor="@color/entrar_color"
+					android:layout_marginLeft="96dp"
+					android:layout_marginTop="695dp"
+					android:layout_width="212.5dp"
+					android:layout_height="32.5dp"
+					android:text="@string/_volte_para_acessar_a_sua_conta_ek1_string"
+					 />
+
+
+				<RelativeLayout android:id="@+id/group_135"
+					android:layout_marginTop="333dp"
+					android:layout_marginStart="45dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View   android:id="@+id/rectangle_103_ek5"
+						android:background="@drawable/rectangle_103_ek5_shape"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="295dp"
+						android:layout_height="37dp" />
+
+					<TextView android:id="@+id/n_mero_de_celular_ek1"
+						android:fontFamily="Inter"
+						android:textStyle="bold|italic"
+						android:textSize="15sp"
+						android:textColor="@color/line_3_color"
+						android:layout_marginLeft="74dp"
+						android:layout_marginTop="10dp"
+						android:layout_width="154.5dp"
+						android:layout_height="28.5dp"
+						android:text="@string/n_mero_de_celular_ek1_string"
+						 />
+
+					<TextView android:id="@+id/br__55"
+						android:fontFamily="Inter"
+						android:textStyle="bold|italic"
+						android:textSize="13sp"
+						android:textColor="@color/line_3_color"
+						android:layout_marginLeft="9dp"
+						android:layout_marginTop="11dp"
+						android:layout_width="64.5dp"
+						android:layout_height="25.5dp"
+						android:text="@string/br__55_string"
+						 />
+
+					<View   android:id="@+id/line_7"
+						android:background="@drawable/line_7_shape"
+						 android:layout_marginStart="50dp"
+						android:layout_marginTop="17dp"
+						android:layout_width="26dp"
+						android:layout_height="1dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
