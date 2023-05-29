@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/laranja_dermage"/> <!-- cor do sólido -->
+            <corners android:radius="400dp"/> <!-- valor do arredondamento das bordas -->
+            <stroke  android:color="@color/laranja_dermage" android:width="10dp"/> <!-- cor da borda e tamanho dela -->
+            <padding android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp"/>
+        </shape>
+    </item>
+</selector>
