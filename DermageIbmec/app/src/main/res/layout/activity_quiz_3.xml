@@ -7,6 +7,20 @@
     android:background="@color/dark_grey"
     tools:context=".Quiz3Activity">
 
+    <ScrollView
+        android:id="@+id/containerForm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        android:padding="16dp">
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -219,6 +233,9 @@
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton8" />
+
+    </LinearLayout>
+    </ScrollView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

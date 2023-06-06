@@ -27,7 +27,8 @@
         <activity android:name=".Quiz3Activity"></activity>
         <activity android:name=".Quiz4Activity"></activity>
         <activity android:name=".QuizFimActivity"></activity>
-        <activity android:name=".RecuperarSenhaActivity"></activity>
+        <activity android:name=".RecuperarSenhaEmailActivity"></activity>
+        <activity android:name=".RecuperarSenhaTelefoneActivity"></activity>
     </application>
 
 </manifest>
