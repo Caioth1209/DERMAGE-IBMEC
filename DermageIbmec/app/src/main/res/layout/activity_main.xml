@@ -25,9 +25,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="140dp"
-        android:text="Acesse a sua conta"
+        android:text="@string/acesse_a_sua_conta"
         android:textColor="@color/laranja_dermage"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -38,10 +38,10 @@
         android:layout_height="50sp"
         android:layout_marginTop="48dp"
         android:background="@drawable/bg_rounded"
-        android:hint="Email ou numero de celular"
+        android:hint="@string/email_ou_numero_de_celular"
         android:textColor="@color/black"
         android:textColorHint="@color/dark_grey"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -52,16 +52,16 @@
         android:layout_height="50sp"
         android:layout_marginTop="48dp"
         android:background="@drawable/bg_rounded"
-        android:hint="Senha"
+        android:hint="@string/senha"
         android:textColor="@color/black"
         android:textColorHint="@color/dark_grey"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/caixa_nome" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/esqueceuSenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -69,22 +69,22 @@
 
         android:background="@color/material_on_background_disabled"
         android:backgroundTint="@color/dark_grey"
-        android:text="Esqueceu a senha?"
+        android:text="@string/esqueceu_a_senha"
         android:textAppearance="@style/MaterialAlertDialog.Material3.Title.Icon"
         android:textColor="@color/light_grey"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/caixa_senha" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/entrar"
         android:layout_width="356dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:background="@drawable/bg_rounded"
         android:backgroundTint="@color/laranja_dermage"
-        android:text="Enviar"
-        android:textSize="20dp"
+        android:text="@string/enviar"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/caixa_senha" />
@@ -112,15 +112,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="ou"
+        android:text="@string/ou"
         android:textColor="@color/light_grey"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/entrar" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnGoogle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -131,40 +131,40 @@
         app:srcCompat="@drawable/google_1" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btnFacebook"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:padding="0sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoogle"
         app:srcCompat="@drawable/face_1" />
 
     <TextView
         android:id="@+id/textNao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="569dp"
-        android:text="Não tem conta?"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/sem_conta"
         android:textColor="@color/light_grey"
-        android:textSize="18dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.26"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/btnFacebook" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/cadastrar"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="29dp"
+        android:padding="0dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="557dp"
+        android:layout_marginTop="30dp"
         android:backgroundTint="@color/dark_grey"
-        android:text="Cadastre-se"
+        android:text="@string/cadastre_se"
         android:textColor="@color/laranja_dermage"
-        android:textSize="15dp"
+        android:textSize="15sp"
         app:layout_constraintStart_toEndOf="@+id/textNao"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/btnFacebook" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
