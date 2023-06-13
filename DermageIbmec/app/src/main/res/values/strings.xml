@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Dermage Ibmec</string>
+    <string name="sem_conta">Não tem conta?</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="ou">ou</string>
+    <string name="enviar">Enviar</string>
+    <string name="esqueceu_a_senha">Esqueceu a senha?</string>
+    <string name="senha">Senha</string>
+    <string name="email_ou_numero_de_celular">Email ou numero de celular</string>
+    <string name="acesse_a_sua_conta">Acesse a sua conta</string>
 </resources>

@@ -21,13 +21,15 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".CadastrarActivity"></activity>
-        <activity android:name=".Quiz1Activity"></activity>
-        <activity android:name=".Quiz2Activity"></activity>
-        <activity android:name=".Quiz3Activity"></activity>
-        <activity android:name=".Quiz4Activity"></activity>
-        <activity android:name=".QuizFimActivity"></activity>
-        <activity android:name=".RecuperarSenhaActivity"></activity>
+        <activity android:name=".CadastrarActivity"/>
+        <activity android:name=".Quiz1Activity"/>
+        <activity android:name=".Quiz2Activity"/>
+        <activity android:name=".Quiz3Activity"/>
+        <activity android:name=".Quiz4Activity"/>
+        <activity android:name=".QuizFimActivity"/>
+        <activity android:name=".QuizFimActivityFim2"/>
+        <activity android:name=".RecuperarSenhaEmailActivity"/>
+        <activity android:name=".RecuperarSenhaTelefoneActivity"/>
     </application>
 
 </manifest>
