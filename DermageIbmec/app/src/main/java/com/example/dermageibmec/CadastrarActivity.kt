@@ -18,6 +18,10 @@ class CadastrarActivity: AppCompatActivity() {
             if(senha.text.toString() == senhaConf.text.toString()){
                 val nome:EditText = findViewById(R.id.nomeSalvar)
                 Resultado.nomeSalvo = nome.text.toString()
+                val email:EditText = findViewById(R.id.emailSalvar)
+                Resultado.emailSalvo = email.text.toString()
+                val telefone:EditText = findViewById(R.id.telefoneSalvar)
+                Resultado.telefoneSalvo = telefone.text.toString()
                 Resultado.senhaSalvo = senhaConf.text.toString()
 
                 val intent = Intent(this, MainActivity::class.java)

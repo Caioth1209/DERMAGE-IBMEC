@@ -99,6 +99,7 @@
                     android:textSize="16sp" />
 
                 <EditText
+                    android:id="@+id/emailSalvar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@android:color/white"
@@ -124,6 +125,7 @@
                     android:textSize="16sp" />
 
                 <EditText
+                    android:id="@+id/telefoneSalvar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@android:color/white"

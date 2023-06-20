@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
             val nomeDigitado = nome.text.toString()
             val senhaSalvo = Resultado.senhaSalvo
             val senhaDigitado = senha.text.toString()
-            if(nomeDigitado == nomeSalvo && senhaDigitado == senhaSalvo){
+            if(nomeDigitado == nomeSalvo && senhaDigitado == senhaSalvo || nomeDigitado == Resultado.emailSalvo && senhaDigitado == senhaSalvo || nomeDigitado == Resultado.telefoneSalvo && senhaDigitado == senhaSalvo){
                 val intent = Intent(this, Quiz3Activity::class.java)
                 startActivity(intent)
             }
