@@ -17,7 +17,11 @@ class MainActivity : AppCompatActivity() {
         val btnEntrar: Button = findViewById(R.id.entrar)
 
         btnEntrar.setOnClickListener {
-            if(nome.text.toString() == "admin" && senha.text.toString() == "adm123"){
+            val nomeSalvo = Resultado.nomeSalvo
+            val nomeDigitado = nome.text.toString()
+            val senhaSalvo = Resultado.senhaSalvo
+            val senhaDigitado = senha.text.toString()
+            if(nomeDigitado == nomeSalvo && senhaDigitado == senhaSalvo){
                 val intent = Intent(this, Quiz3Activity::class.java)
                 startActivity(intent)
             }
