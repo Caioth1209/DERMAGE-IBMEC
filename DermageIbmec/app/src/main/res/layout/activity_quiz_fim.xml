@@ -8,17 +8,6 @@
     tools:context=".QuizFimActivity">
 
 
-    <TextView
-        android:id="@+id/imageView1010"
-        android:layout_width="200dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="196dp"
-        android:background="@drawable/barra_progresso_escuro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -34,30 +23,41 @@
         app:srcCompat="@drawable/dermage_logo" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="140dp"
-        android:text="Progresso"
-        android:textColor="@color/laranja_dermage"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="208dp"
         android:text="Parabéns, você concluiu !"
         android:textColor="@color/laranja_dermage"
         android:textSize="20dp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/imageView1010"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/barra_progresso_escuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Progresso"
+        android:textColor="@color/laranja_dermage"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,20 +65,31 @@
         android:id="@+id/imageView14"
         android:layout_width="360dp"
         android:layout_height="230dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="416dp"
         android:src="@drawable/bg_rounded"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="360dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="244dp"
+        android:src="@drawable/bg_rounded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView1010"
-        android:layout_width="278dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="456dp"
-        android:text="Use protetor solar diariamente, assim você protege a sua pele dos raios solares e a mantém mais jovem, iluminada e saudável."
+        android:id="@+id/textView7"
+        android:layout_width="280dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="484dp"
+        android:text="Beba mais água, assim você hidrata a pele e evita o surgimento de acne."
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -87,56 +98,9 @@
         android:id="@+id/textView1011"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="432dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="548dp"
         android:text="Rotina 2:"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView1011"
-        android:layout_width="330dp"
-        android:layout_height="5dp"
-        android:layout_marginTop="416dp"
-        android:src="@drawable/bg_barra_preta"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="308dp"
-        android:text="Sugestão de Rotina"
-        android:textColor="@color/laranja_dermage"
-        android:textSize="23dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.199"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="344dp"
-        android:text="Rotina 1:"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="280dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="368dp"
-        android:text="Beba mais água, assim você hidrata a pele e evita o surgimento de acne."
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -145,12 +109,101 @@
         android:id="@+id/botao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/barra_progresso"
         android:text="Finalizar"
         android:textColor="@color/cardview_dark_background"
-        android:background="@drawable/barra_progresso"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="460dp"
+        android:text="Rotina 1:"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView1011"
+        android:layout_width="330dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="532dp"
+        android:src="@drawable/bg_barra_preta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="424dp"
+        android:text="Sugestão de Rotina"
+        android:textColor="@color/laranja_dermage"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1010"
+        android:layout_width="278dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="572dp"
+        android:text="Use protetor solar diariamente, assim você protege a sua pele dos raios solares e a mantém mais jovem, iluminada e saudável."
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <ImageView
+            android:id="@+id/fotoResultado"
+            android:layout_margin="10dp"
+            android:layout_width="135dp"
+            android:layout_height="135dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloResultado"
+                android:layout_width="match_parent"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Button
+                android:id="@+id/buttonResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Comprar" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
