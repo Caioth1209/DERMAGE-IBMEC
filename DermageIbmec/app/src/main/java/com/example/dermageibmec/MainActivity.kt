@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ImageButton
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,10 +17,34 @@ class MainActivity : AppCompatActivity() {
         val btnEntrar: Button = findViewById(R.id.entrar)
 
         btnEntrar.setOnClickListener {
-            if(nome.equals("admin") && senha.equals("adm123")){
-                val intent = Intent(this, Quiz1Activity::class.java)
+            if(nome.text.toString() == "admin" && senha.text.toString() == "adm123"){
+                val intent = Intent(this, Quiz3Activity::class.java)
                 startActivity(intent)
             }
+        }
+
+        val btnGoogle: ImageButton = findViewById(R.id.btnGoogle)
+        val btnFace: ImageButton = findViewById(R.id.btnFacebook)
+
+        btnGoogle.setOnClickListener {
+            val intent = Intent(this, Quiz3Activity::class.java)
+            startActivity(intent)
+        }
+        btnFace.setOnClickListener {
+            val intent = Intent(this, Quiz3Activity::class.java)
+            startActivity(intent)
+        }
+
+        val btnCadastar: Button = findViewById(R.id.cadastrar)
+        btnCadastar.setOnClickListener {
+            val intent = Intent(this, CadastrarActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnEsqueceu: Button = findViewById(R.id.esqueceuSenha)
+        btnEsqueceu.setOnClickListener {
+            val intent = Intent(this, RecuperarSenhaEmailActivity::class.java)
+            startActivity(intent)
         }
     }
 }

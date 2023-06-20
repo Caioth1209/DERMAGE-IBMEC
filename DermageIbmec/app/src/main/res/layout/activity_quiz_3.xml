@@ -85,7 +85,7 @@
     <ScrollView
         android:id="@+id/opcoes"
         android:layout_width="match_parent"
-        android:layout_height="410dp"
+        android:layout_height="310dp"
         android:layout_marginTop="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4">
