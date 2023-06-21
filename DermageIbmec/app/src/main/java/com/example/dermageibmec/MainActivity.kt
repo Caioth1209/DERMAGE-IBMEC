@@ -4,7 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
+import android.widget.
+import android.widget.ImageButton
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,10 +17,39 @@ class MainActivity : AppCompatActivity() {
         val btnEntrar: Button = findViewById(R.id.entrar)
 
         btnEntrar.setOnClickListener {
-            if(nome.equals("admin") && senha.equals("adm123")){
+            val nomeSalvo = Resultado.nomeSalvo
+            val nomeDigitado = nome.text.toString()
+            val senhaSalvo = Resultado.senhaSalvo
+            val senhaDigitado = senha.text.toString()
+            if(nomeDigitado == nomeSalvo && senhaDigitado == senhaSalvo || nomeDigitado == Resultado.emailSalvo && senhaDigitado == senhaSalvo || nomeDigitado == Resultado.telefoneSalvo && senhaDigitado == senhaSalvo) {
+
                 val intent = Intent(this, Quiz1Activity::class.java)
                 startActivity(intent)
             }
+        }
+
+        val btnGoogle: ImageButton = findViewById(R.id.btnGoogle)
+        val btnFace: ImageButton = findViewById(R.id.btnFacebook)
+
+        btnGoogle.setOnClickListener {
+            val intent = Intent(this, Quiz1Activity::class.java)
+            startActivity(intent)
+        }
+        btnFace.setOnClickListener {
+            val intent = Intent(this, Quiz1Activity::class.java)
+            startActivity(intent)
+        }
+
+        val btnCadastar: Button = findViewById(R.id.cadastrar)
+        btnCadastar.setOnClickListener {
+            val intent = Intent(this, CadastrarActivity::class.java)
+            startActivity(intent)
+        }
+
+        val btnEsqueceu: Button = findViewById(R.id.esqueceuSenha)
+        btnEsqueceu.setOnClickListener {
+            val intent = Intent(this, RecuperarSenhaEmailActivity::class.java)
+            startActivity(intent)
         }
     }
 }
