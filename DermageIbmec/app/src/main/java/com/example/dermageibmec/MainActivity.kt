@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
+import android.widget.
 import android.widget.ImageButton
 
 class MainActivity : AppCompatActivity() {
@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             val senhaSalvo = Resultado.senhaSalvo
             val senhaDigitado = senha.text.toString()
             if(nomeDigitado == nomeSalvo && senhaDigitado == senhaSalvo || nomeDigitado == Resultado.emailSalvo && senhaDigitado == senhaSalvo || nomeDigitado == Resultado.telefoneSalvo && senhaDigitado == senhaSalvo) {
+
                 val intent = Intent(this, Quiz1Activity::class.java)
                 startActivity(intent)
             }

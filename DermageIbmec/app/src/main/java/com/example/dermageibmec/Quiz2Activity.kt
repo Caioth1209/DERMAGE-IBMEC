@@ -72,6 +72,5 @@ class Quiz2Activity : AppCompatActivity() {
             val intent = Intent(this, Quiz1Activity::class.java)
             startActivity(intent)
         }
-
     }
 }
