@@ -5,18 +5,181 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_grey"
-    tools:context=".Quiz1Activity">
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="43dp"
         android:minWidth="214dp"
         android:minHeight="77dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/dermage_logo" />
+
+    <TextView
+        android:id="@+id/textProgresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:text="Progresso"
+        android:textAlignment="center"
+        android:textColor="@color/laranja_dermage"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/barra_progresso"
+        android:textColor="@color/light_laranja_dermage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textProgresso" />
+
+    <TextView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/barra_progresso_escuro"
+        android:textColor="@color/laranja_dermage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textProgresso" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:text="Qual o seu tipo de pele?"
+        android:textAlignment="center"
+        android:textColor="@color/laranja_dermage"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/radioCurta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/light_laranja_dermage"
+            android:text="Seca"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioPratica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/light_laranja_dermage"
+            android:text="Oleosa"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioMista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/light_laranja_dermage"
+            android:text="Mista"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <RadioButton
+            android:id="@+id/radioLonga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/light_laranja_dermage"
+            android:text="Normal"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <RadioButton
+            android:id="@+id/radioDepende"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/light_laranja_dermage"
+            android:text="Sensível"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <RadioButton
+            android:id="@+id/radioDuvida"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_rounded"
+            android:backgroundTint="@color/light_laranja_dermage"
+            android:text="Não sei"
+            android:textAlignment="textStart"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/botaoVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="@color/laranja_dermage"
+        android:text="Voltar"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <Button
+        android:id="@+id/botaoAvancar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/bg_rounded"
+        android:backgroundTint="@color/laranja_dermage"
+        android:text="Avançar"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

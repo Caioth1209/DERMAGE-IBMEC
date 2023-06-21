@@ -45,7 +45,7 @@
 
     <TextView
         android:id="@+id/imageView4"
-        android:layout_width="100dp"
+        android:layout_width="120dp"
         android:layout_height="25dp"
         android:layout_gravity=""
         android:layout_marginStart="96dp"
@@ -84,9 +84,10 @@
 
     <ScrollView
         android:id="@+id/opcoes"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="310dp"
         android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
@@ -216,11 +217,13 @@
         android:id="@+id/botaoVoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
         android:text="Voltar"
         android:textAlignment="textStart"
+        android:background="@drawable/bg_rounded"
         android:textColor="@color/black"
-        android:textSize="20dp"
-        android:layout_marginTop="20dp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/opcoes" />
 
@@ -228,11 +231,13 @@
         android:id="@+id/botaoAvancar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
         android:text="Avançar"
+        android:background="@drawable/bg_rounded"
         android:textAlignment="textStart"
         android:textColor="@color/black"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/opcoes" />
 
